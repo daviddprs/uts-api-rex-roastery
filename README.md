@@ -56,7 +56,7 @@ Untuk melakukan pengujian endpoint, Anda dapat meng-import file Collection Postm
 Berikut adalah 10 bukti pengujian endpoint API yang telah dilakukan menggunakan Postman:
 
 ### 1. Register User Baru
-![01 - POST Register Berfungsi](Screenshots_Postman/01 - POST Register Berfungsi.png)
+Screenshots_Postman/01 - POST Register Berfungsi.png
 
 ### 2. Login (Admin)
 <img src="img/02 - POST Login Mengembalikan Token.png">
