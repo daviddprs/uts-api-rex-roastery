@@ -53,8 +53,7 @@ Pengujian API (Testing)
 Untuk melakukan pengujian endpoint, Anda dapat meng-import file Collection Postman (.json) yang telah disertakan di dalam folder pengumpulan ini ke dalam aplikasi Postman Anda. Terdapat 10 request pengujian yang sudah dikonfigurasi termasuk skenario error handling.
 
 <<<<<<< HEAD
-## 📸 Hasil Pengujian API (Postman Screenshots)
-Berikut adalah 10 bukti pengujian *endpoint* API yang telah dilakukan menggunakan Postman:
+## 📸 Hasil Pengujian API
 
 ### 1. Register User Baru
 ![Register](img/01%20-%20POST%20Register%20Berfungsi.png)
@@ -80,12 +79,8 @@ Berikut adalah 10 bukti pengujian *endpoint* API yang telah dilakukan menggunaka
 ### 8. GET Melihat Riwayat Pesanan User
 ![Riwayat Pesanan](img/08%20-%20GET%20Riwayat%20Pesanan%20User.png)
 
-### 9. Uji Keamanan: Hapus Produk Ditolak (User Biasa)
+### 9. Uji Keamanan: Hapus Produk Ditolak
 ![Akses Ditolak](img/09%20-%20DELETE%20Akses%20Ditolak%20User%20Biasa.png)
 
-### 10. Uji Keamanan: Akses Tanpa Token Ditolak
+### 10. Uji Keamanan: Akses Tanpa Token
 ![Tanpa Token](img/10%20-%20GET%20Akses%20Tanpa%20Token.png)
-=======
-<img width="1924" height="1084" alt="01 - POST Register Berfungsi" src="https://github.com/user-attachments/assets/f57ee023-2d6f-4ddb-99be-a7f9ffde8257" />
-
->>>>>>> da7f5be8e2a605456dcdaef5c179160f45292299
