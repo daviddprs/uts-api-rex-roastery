@@ -56,7 +56,11 @@ Untuk melakukan pengujian endpoint, Anda dapat meng-import file Collection Postm
 Berikut adalah 10 bukti pengujian endpoint API yang telah dilakukan menggunakan Postman:
 
 ### 1. Register User Baru
+<<<<<<< HEAD
 Screenshots_Postman/01 - POST Register Berfungsi.png
+=======
+![img alt](https://github.com/daviddprs/uts-api-rex-roastery/blob/d5a6f80c4205218f7d923efe0238d30ee9e06530/01%20-%20POST%20Register%20Berfungsi.png)
+>>>>>>> e0b1f58aeff3bf63086d926431deed32368cbfa8
 
 ### 2. Login (Admin)
 <img src="img/02 - POST Login Mengembalikan Token.png">
