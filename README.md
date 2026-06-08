@@ -52,4 +52,4 @@ Server akan berjalan di http://127.0.0.1:8000.
 Pengujian API (Testing)
 Untuk melakukan pengujian endpoint, Anda dapat meng-import file Collection Postman (.json) yang telah disertakan di dalam folder pengumpulan ini ke dalam aplikasi Postman Anda. Terdapat 10 request pengujian yang sudah dikonfigurasi termasuk skenario error handling.
 
-![Test 1](./img/01%20-%20POST%20Register%20Berfungsi.png)
+img/01 - POST Register Berfungsi.png
