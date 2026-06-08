@@ -25,6 +25,7 @@ Ikuti langkah-langkah di bawah ini untuk menjalankan project secara lokal:
 Karena folder `vendor` tidak disertakan dalam file pengumpulan untuk menghemat ukuran, silakan buka Terminal/Command Prompt di dalam folder project ini, lalu jalankan perintah:
 ```bash
 composer install
+```
 
 **2. Setup Environment Variables**
 Copy file .env.example dan ubah namanya menjadi .env
@@ -54,8 +55,6 @@ Untuk melakukan pengujian endpoint, Anda dapat meng-import file Collection Postm
 
 ## 📸 Hasil Pengujian API (Postman Screenshots)
 Berikut adalah 10 bukti pengujian endpoint API yang telah dilakukan menggunakan Postman:
-
-## 📸 Hasil Pengujian API (Postman Screenshots)
 
 ### 1. Register User Baru
 ![Register](<Screenshots_Postman/01 - POST Register Berfungsi.png>)
