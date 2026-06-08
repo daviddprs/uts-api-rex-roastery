@@ -55,36 +55,34 @@ Untuk melakukan pengujian endpoint, Anda dapat meng-import file Collection Postm
 ## 📸 Hasil Pengujian API (Postman Screenshots)
 Berikut adalah 10 bukti pengujian endpoint API yang telah dilakukan menggunakan Postman:
 
+## 📸 Hasil Pengujian API (Postman Screenshots)
+
 ### 1. Register User Baru
-<<<<<<< HEAD
-Screenshots_Postman/01 - POST Register Berfungsi.png
-=======
-![img alt](https://github.com/daviddprs/uts-api-rex-roastery/blob/d5a6f80c4205218f7d923efe0238d30ee9e06530/01%20-%20POST%20Register%20Berfungsi.png)
->>>>>>> e0b1f58aeff3bf63086d926431deed32368cbfa8
+![Register](<Screenshots_Postman/01 - POST Register Berfungsi.png>)
 
 ### 2. Login (Admin)
-<img src="img/02 - POST Login Mengembalikan Token.png">
+![Login Admin](<Screenshots_Postman/02 - POST Login Mengembalikan Token.png>)
 
 ### 3. GET Semua Produk
-<img src="img/03 - GET Menampilkan Daftar Produk.png">
+![Get Produk](<Screenshots_Postman/03 - GET Menampilkan Daftar Produk.png>)
 
 ### 4. POST Tambah Produk Baru (Admin)
-<img src="img/04 - POST Tambah Produk Admin.png">
+![Tambah Produk](<Screenshots_Postman/04 - POST Tambah Produk Admin.png>)
 
 ### 5. PUT Update Produk (Admin)
-<img src="img/05 - PUT Edit Produk Admin.png">
+![Edit Produk](<Screenshots_Postman/05 - PUT Edit Produk Admin.png>)
 
 ### 6. Login (User Pembeli)
-<img src="img/06 - POST Login User Pembeli.png">
+![Login User](<Screenshots_Postman/06 - POST Login User Pembeli.png>)
 
 ### 7. POST Membuat Pesanan Baru (Orders)
-<img src="img/07 - POST Order Kalkulasi Otomatis.png">
+![Order Otomatis](<Screenshots_Postman/07 - POST Order Kalkulasi Otomatis.png>)
 
 ### 8. GET Melihat Riwayat Pesanan User
-<img src="img/08 - GET Riwayat Pesanan User.png">
+![Riwayat Pesanan](<Screenshots_Postman/08 - GET Riwayat Pesanan User.png>)
 
 ### 9. Uji Keamanan: Hapus Produk Ditolak (User Biasa)
-<img src="img/09 - DELETE Akses Ditolak User Biasa.png">
+![Akses Ditolak](<Screenshots_Postman/09 - DELETE Akses Ditolak User Biasa.png>)
 
 ### 10. Uji Keamanan: Akses Tanpa Token Ditolak
-<img src="img/10 - GET Akses Tanpa Token.png">
+![Tanpa Token](<Screenshots_Postman/10 - GET Akses Tanpa Token.png>)
