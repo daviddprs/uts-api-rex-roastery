@@ -102,7 +102,7 @@ Sistem ini menggunakan 4 tabel utama dengan relasi (hasMany / belongsTo) sebagai
 
 **3. Daftar Endpoint API (10 Endpoint Postman)**
 Berikut adalah daftar rute API yang telah dibangun dan berhasil diuji di Postman:
-![Tabel](<Screenshots_Postman/Tabelpoint.png>)
+![Tabel](<Screenshots_Postman/Tabel Endpoint.png>)
 
 **3. 3.	Kendala & Solusi Selama Pengembangan**
 - Kendala 1: Kesulitan dalam memisahkan hak akses antara Admin dan User biasa pada endpoint Produk (Create, Update, Delete).
