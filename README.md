@@ -48,7 +48,10 @@ php artisan migrate --seed
 
 **5. Jalankan Local Server**
 Setelah semua setup selesai, jalankan server Laravel dengan perintah: php artisan serve
-Server akan berjalan di http://127.0.0.1:8000.
+Server akan berjalan di
+```bash
+http://127.0.0.1:8000.
+```
 
 Pengujian API (Testing)
 Untuk melakukan pengujian endpoint, Anda dapat meng-import file Collection Postman (.json) yang telah disertakan di dalam folder pengumpulan ini ke dalam aplikasi Postman Anda. Terdapat 10 request pengujian yang sudah dikonfigurasi termasuk skenario error handling.
