@@ -52,6 +52,35 @@ Server akan berjalan di http://127.0.0.1:8000.
 Pengujian API (Testing)
 Untuk melakukan pengujian endpoint, Anda dapat meng-import file Collection Postman (.json) yang telah disertakan di dalam folder pengumpulan ini ke dalam aplikasi Postman Anda. Terdapat 10 request pengujian yang sudah dikonfigurasi termasuk skenario error handling.
 
-## 📄 Laporan & Bukti Pengujian
-- 👉 **[Buka Laporan UTS (PDF)](public/docs/UTS-Fullstack_David%20prastiansyah-2305101026.pdf)**
-- 👉 **[Lihat 10 Bukti Screenshot Pengujian (Folder IMG)](https://github.com/daviddprs/uts-api-rex-roastery/tree/main/img)**
+## 📸 Hasil Pengujian API (Postman Screenshots)
+Berikut adalah 10 bukti pengujian endpoint API yang telah dilakukan menggunakan Postman:
+
+### 1. Register User Baru
+![alt text](https://github.com/daviddprs/uts-api-rex-roastery/blob/main/img/01%20-%20POST%20Register%20Berfungsi.png)
+
+### 2. Login (Admin)
+<img src="img/02 - POST Login Mengembalikan Token.png">
+
+### 3. GET Semua Produk
+<img src="img/03 - GET Menampilkan Daftar Produk.png">
+
+### 4. POST Tambah Produk Baru (Admin)
+<img src="img/04 - POST Tambah Produk Admin.png">
+
+### 5. PUT Update Produk (Admin)
+<img src="img/05 - PUT Edit Produk Admin.png">
+
+### 6. Login (User Pembeli)
+<img src="img/06 - POST Login User Pembeli.png">
+
+### 7. POST Membuat Pesanan Baru (Orders)
+<img src="img/07 - POST Order Kalkulasi Otomatis.png">
+
+### 8. GET Melihat Riwayat Pesanan User
+<img src="img/08 - GET Riwayat Pesanan User.png">
+
+### 9. Uji Keamanan: Hapus Produk Ditolak (User Biasa)
+<img src="img/09 - DELETE Akses Ditolak User Biasa.png">
+
+### 10. Uji Keamanan: Akses Tanpa Token Ditolak
+<img src="img/10 - GET Akses Tanpa Token.png">
