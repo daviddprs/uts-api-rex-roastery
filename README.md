@@ -52,6 +52,7 @@ Server akan berjalan di http://127.0.0.1:8000.
 Pengujian API (Testing)
 Untuk melakukan pengujian endpoint, Anda dapat meng-import file Collection Postman (.json) yang telah disertakan di dalam folder pengumpulan ini ke dalam aplikasi Postman Anda. Terdapat 10 request pengujian yang sudah dikonfigurasi termasuk skenario error handling.
 
+<<<<<<< HEAD
 ## 📸 Hasil Pengujian API (Postman Screenshots)
 Berikut adalah 10 bukti pengujian *endpoint* API yang telah dilakukan menggunakan Postman:
 
@@ -84,3 +85,7 @@ Berikut adalah 10 bukti pengujian *endpoint* API yang telah dilakukan menggunaka
 
 ### 10. Uji Keamanan: Akses Tanpa Token Ditolak
 ![Tanpa Token](img/10%20-%20GET%20Akses%20Tanpa%20Token.png)
+=======
+<img width="1924" height="1084" alt="01 - POST Register Berfungsi" src="https://github.com/user-attachments/assets/f57ee023-2d6f-4ddb-99be-a7f9ffde8257" />
+
+>>>>>>> da7f5be8e2a605456dcdaef5c179160f45292299
