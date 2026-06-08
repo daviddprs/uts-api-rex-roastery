@@ -32,9 +32,11 @@ Copy file .env.example dan ubah namanya menjadi .env
 Setelah itu, generate application key dengan perintah: php artisan key:generate
 
 **3. Setup Database**
-Buka phpMyAdmin atau HeidiSQL, lalu buat database baru (misalnya dengan nama rex_roastery_api).
+Buka phpMyAdmin atau HeidiSQL, lalu buat database baru (misalnya dengan nama `rex_roastery_api`).
 
-Buka file .env di text editor, lalu sesuaikan konfigurasi koneksi database berikut:
+Buka file `.env` di text editor, lalu sesuaikan konfigurasi koneksi database berikut:
+
+```env
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
