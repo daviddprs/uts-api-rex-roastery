@@ -90,7 +90,12 @@ Berikut adalah 10 bukti pengujian endpoint API yang telah dilakukan menggunakan 
 ![Tanpa Token](<Screenshots_Postman/10 - GET Akses Tanpa Token.png>)
 
 ## LAPORAN TUGAS UTS: SISTEM MANAJEMEN PRODUK & TRANSAKSI (MINI E-COMMERCE API)
-1. 1.	Entity Relationship Diagram (ERD) Database.
+1. Entity Relationship Diagram (ERD) Database.
 Sistem ini menggunakan 4 tabel utama dengan relasi (hasMany / belongsTo) sebagai berikut:
 ![Laporan](<Screenshots_Postman/ERD.png>)
 
+2. Sistem ini menggunakan 4 tabel utama dengan relasi (hasMany / belongsTo) sebagai berikut:
+- Tabel users: Menyimpan data pengguna (Admin dan User biasa). Memiliki relasi One-to-Many dengan tabel orders (Satu user bisa memiliki banyak pesanan).
+- Tabel produk: Menyimpan master data produk E-Commerce. Memiliki relasi One-to-Many dengan tabel order_items (Satu produk bisa ada di banyak detail pesanan).
+- Tabel orders: Menyimpan data transaksi/keranjang belanja. Berelasi Belongs-To ke tabel users, dan One-to-Many ke tabel order_items.
+- Tabel order_items: Menyimpan detail barang yang dibeli dalam satu transaksi. Berelasi Belongs-To ke orders dan produk.
