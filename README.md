@@ -90,12 +90,22 @@ Berikut adalah 10 bukti pengujian endpoint API yang telah dilakukan menggunakan 
 ![Tanpa Token](<Screenshots_Postman/10 - GET Akses Tanpa Token.png>)
 
 ## LAPORAN TUGAS UTS: SISTEM MANAJEMEN PRODUK & TRANSAKSI (MINI E-COMMERCE API)
-1. Entity Relationship Diagram (ERD) Database.
+**1. Entity Relationship Diagram (ERD) Database.**
 Sistem ini menggunakan 4 tabel utama dengan relasi (hasMany / belongsTo) sebagai berikut:
 ![Laporan](<Screenshots_Postman/ERD.png>)
 
-2. Sistem ini menggunakan 4 tabel utama dengan relasi (hasMany / belongsTo) sebagai berikut:
+**2. Sistem ini menggunakan 4 tabel utama dengan relasi (hasMany / belongsTo) sebagai berikut:**
 - Tabel users: Menyimpan data pengguna (Admin dan User biasa). Memiliki relasi One-to-Many dengan tabel orders (Satu user bisa memiliki banyak pesanan).
 - Tabel produk: Menyimpan master data produk E-Commerce. Memiliki relasi One-to-Many dengan tabel order_items (Satu produk bisa ada di banyak detail pesanan).
 - Tabel orders: Menyimpan data transaksi/keranjang belanja. Berelasi Belongs-To ke tabel users, dan One-to-Many ke tabel order_items.
 - Tabel order_items: Menyimpan detail barang yang dibeli dalam satu transaksi. Berelasi Belongs-To ke orders dan produk.
+
+**3. Daftar Endpoint API (10 Endpoint Postman)**
+Berikut adalah daftar rute API yang telah dibangun dan berhasil diuji di Postman:
+![Tabel](<Screenshots_Postman/Tabelpoint.png>)
+
+**3. 3.	Kendala & Solusi Selama Pengembangan**
+- Kendala 1: Kesulitan dalam memisahkan hak akses antara Admin dan User biasa pada endpoint Produk (Create, Update, Delete).
+Solusi: Menerapkan pengecekan role di dalam Controller atau menggunakan Middleware khusus yang mengecek kolom role (atau is_admin) pada tabel users milik pengguna yang sedang terautentikasi melalui token.
+- Kendala 2: Melakukan kalkulasi total pesanan (Total Price) secara otomatis saat endpoint POST /api/orders dieksekusi.
+Solusi: Menghapus folder vendor karena nanti dapat di-generate ulang menggunakan composer install, dan menyertakan file .env.example sebagai panduan konfigurasi database untuk penguji.
