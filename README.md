@@ -88,3 +88,9 @@ Berikut adalah 10 bukti pengujian endpoint API yang telah dilakukan menggunakan 
 
 ### 10. Uji Keamanan: Akses Tanpa Token Ditolak
 ![Tanpa Token](<Screenshots_Postman/10 - GET Akses Tanpa Token.png>)
+
+## LAPORAN TUGAS UTS: SISTEM MANAJEMEN PRODUK & TRANSAKSI (MINI E-COMMERCE API)
+1. 1.	Entity Relationship Diagram (ERD) Database.
+Sistem ini menggunakan 4 tabel utama dengan relasi (hasMany / belongsTo) sebagai berikut:
+![Laporan](<Screenshots_Postman/ERD.png>)
+
