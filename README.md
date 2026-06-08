@@ -52,10 +52,6 @@ Server akan berjalan di http://127.0.0.1:8000.
 Pengujian API (Testing)
 Untuk melakukan pengujian endpoint, Anda dapat meng-import file Collection Postman (.json) yang telah disertakan di dalam folder pengumpulan ini ke dalam aplikasi Postman Anda. Terdapat 10 request pengujian yang sudah dikonfigurasi termasuk skenario error handling.
 
-## 📄 Dokumen Laporan (PDF)
-Laporan lengkap mengenai Entity Relationship Diagram (ERD), daftar endpoint, serta kendala & solusi selama pengembangan dapat diakses melalui tautan berikut:
-👉 **[Buka Laporan UTS (PDF)](public/docs/UTS-Fullstack_David%20prastiansyah-2305101026.pdf)**
-
-## 📸 Hasil Pengujian API (Postman)
-Untuk melihat 10 bukti pengujian (screenshot) yang telah berhasil dilakukan pada endpoint API ini, silakan klik tautan menuju folder `img` di bawah ini:
-👉 **[KLIK DI SINI UNTUK MELIHAT 10 BUKTI SCREENSHOT](https://github.com/daviddprs/uts-api-rex-roastery
+## 📄 Laporan & Bukti Pengujian
+- 👉 **[Buka Laporan UTS (PDF)](public/docs/UTS-Fullstack_David%20prastiansyah-2305101026.pdf)**
+- 👉 **[Lihat 10 Bukti Screenshot Pengujian (Folder IMG)](https://github.com/daviddprs/uts-api-rex-roastery/tree/main/img)**
